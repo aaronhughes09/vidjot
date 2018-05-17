@@ -68,13 +68,6 @@ app.use(function(req, res, next){
   next();
 });
 
-/* How middleware works
-In this example you can use 'req.name' anywhere in this file (e.g.listing req.name on the index page)
-app.use(function (req, res, next){
-  console.log(Date.now());
-  req.name = 'Aaron Hughes';
-  next();
-});*/
 
 //Index route
 app.get('/', (req, res) => {
